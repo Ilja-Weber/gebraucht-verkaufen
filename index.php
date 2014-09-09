@@ -7,7 +7,8 @@
   <body>
     <header>
       <hgroup>
-         <h1>Заголовок "h1" из hgroup</h1>
+
+         <h1>privet krosavcHe</h1>
          <h2>Заголовок "h2" из hgroup</h2>
       </hgroup>
     </header>
