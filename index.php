@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset=utf-8>
-    <title>(Это title)test testes tes tes Пример страницы на HTML5</title>
+    <title>(Это title)test testeeees tes tes Пример страницы на HTML5</title>
   </head>
   <body>
     <header>
