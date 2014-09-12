@@ -3,34 +3,13 @@
   <head>
     <meta charset=utf-8>
     <title>(Это title)test testeeees tes tes Пример страницы на HTML5</title>
+    <script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
   </head>
   <body>
-    <header>
-      <hgroup>
+    <div>
 
-         <h1>privet krosavcHe</h1>
-         <h2>Заголовок "h2" из hgroup</h2>
-      </hgroup>
-    </header>
-    <nav>
-      <menu>
-        <li><a href="link1.html">Первая ссылка из блока "nav"</a></li>
-        <li><a href="link2.html"><?php echo "<span>Hello World</span>" ?></a></li>
-      </menu>
-    </nav>
-    <section>
-      <article>
-        <h1>Заголовок статьи из блока "article"</h1>
-        <p>Текст абзаца статьи из блока "article"</p>
-        <details>
-          <summary>Блок "details", текст тега "summary"</summary>
-          <p>Абзац из блока "details"</p>
-        </details>
-      </article>
-    </section>
-    <footer>
-      <time>Содержимое тега "time" блока "footer"</time>
-      <p>Содержимое абзаца из блока "footer"</p>
-    </footer>
+    </div>
+    <script src='js/app.js'></script>
+
   </body>
 </html>
