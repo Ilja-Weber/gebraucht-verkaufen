@@ -18,9 +18,12 @@ var ractive = new Ractive({
 
 
 
-var timeout = setTimeout( function(){
+var start_loop = function(){
     ractive.set( 'unread', ( ractive.get( 'unread')+1 ) );
     if( ractive.get( 'unread' ) == ractive.get( 'total' ) ){
         clearTimeout( timeout );
     }
-}, 1000);
+    setTimeout( mahfunk, 1000);
+}
+
+start_loop();
