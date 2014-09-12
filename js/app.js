@@ -9,8 +9,8 @@ var ractive = new Ractive({
     // Here, we're passing in some initial data
     data: {
         "name": "Alice",
-        "unread": 7,
-        "total": 10
+        "unread": 0,
+        "total": 100
     }
 
 
