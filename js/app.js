@@ -12,4 +12,13 @@ var ractive = new Ractive({
         "unread": 7,
         "total": 10
     }
+
+
 });
+
+var timeout = setTimeout(function(){
+    ractive.set('total', (ractve.get('total')+1));
+    if( ractve.get('total') == 100 ){
+        clearTimeout(timeout);
+    }
+}, 1000);
