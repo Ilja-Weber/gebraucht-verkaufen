@@ -17,8 +17,8 @@ var ractive = new Ractive({
 });
 
 var timeout = setTimeout(function(){
-    ractive.set('total', (ractve.get('total')+1));
-    if( ractve.get('total') == 100 ){
+    ractive.set('total', (ractive.get('total')+1));
+    if( ractive.get('total') == 100 ){
         clearTimeout(timeout);
     }
 }, 1000);
