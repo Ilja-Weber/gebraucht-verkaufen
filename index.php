@@ -3,6 +3,7 @@
   <head>
     <meta charset=utf-8>
     <title>(Это title)test testeeees tes tes Пример страницы на HTML5</title>
+    <link href="css/style.css" rel="stylesheet">
     <script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
   </head>
   <body>
