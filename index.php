@@ -4,7 +4,7 @@
     <meta charset=utf-8>
     <title>(Это title)test testeeees tes tes Пример страницы на HTML5</title>
     <link href="css/styles.css" rel="stylesheet">
-    <script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
+
   </head>
   <body>
     <div id="container">
@@ -21,6 +21,7 @@
         </div>
     </script>
 
+    <script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
     <script src='js/app.js'></script>
   </body>
 </html>
