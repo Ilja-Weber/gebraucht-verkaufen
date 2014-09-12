@@ -7,6 +7,10 @@
   </head>
   <body>
     <div id="container">
+
+    </div>
+
+    <script id='template' type='text/ractive'>
         <h3>Hello {{name}}!</h3>
         <p>You have <b>{{unread}}</b>/{{total}} unread messages.</p>
 
@@ -14,7 +18,7 @@
             <!-- You can use JavaScript expressions in templates! -->
             <div style='width: {{ 100 * unread / total }}%;'></div>
         </div>
-    </div>
+    </script>
 
     <script src='js/app.js'></script>
   </body>
