@@ -23,7 +23,7 @@ var start_loop = function(){
     if( ractive.get( 'unread' ) == ractive.get( 'total' ) ){
         clearTimeout( timeout );
     }
-    setTimeout( mahfunk, 1000);
+    setTimeout( start_loop, 1000);
 }
 
 start_loop();
