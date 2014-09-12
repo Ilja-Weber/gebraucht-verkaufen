@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "gebraucht-erkaufne.com"
+AuthUserFile .htpasswd
+Require valid-user

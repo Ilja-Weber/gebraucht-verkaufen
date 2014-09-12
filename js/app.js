@@ -15,15 +15,3 @@ var ractive = new Ractive({
 
 
 });
-
-
-
-var start_loop = function(){
-    ractive.set( 'unread', ( ractive.get( 'unread')+1 ) );
-    if( ractive.get( 'unread' ) == ractive.get( 'total' ) ){
-        clearTimeout( timeout );
-    }
-    setTimeout( start_loop, 1000);
-}
-
-start_loop();
