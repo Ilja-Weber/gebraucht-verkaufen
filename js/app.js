@@ -16,9 +16,11 @@ var ractive = new Ractive({
 
 });
 
-var timeout = setTimeout(function(){
-    ractive.set('total', (ractive.get('total')+1));
-    if( ractive.get('total') == 100 ){
-        clearTimeout(timeout);
+
+
+var timeout = setTimeout( function(){
+    ractive.set( 'unread', ( ractive.get( 'unread')+1 ) );
+    if( ractive.get( 'unread' ) == ractive.get( 'total' ) ){
+        clearTimeout( timeout );
     }
 }, 1000);
