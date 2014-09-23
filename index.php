@@ -7,9 +7,7 @@
 
   </head>
   <body>
-    <div id="container">
-
-    </div>
+    <div id="container"></div>
 
     <script id='template' type='text/ractive'>
         <?php include 'templates/index.tpl'; ?>
