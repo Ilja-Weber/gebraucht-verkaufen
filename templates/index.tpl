@@ -1,7 +1,8 @@
-<h3>Hello {{name}}!</h3>
-<p>You have <b>{{unread}}</b>/{{total}} unread messages.</p>
 
-<div class='progress'>
-    <!-- You can use JavaScript expressions in templates! -->
-    <div style='width: {{ 100 * unread / total }}%;'></div>
+<div style="width:900px;margin:auto;">
+    {{#items}}
+    <div style="float:left;width:98px;height:98px;background-color:brown;margin:1px">
+        <p>{{title}}</p>
+    </div>
+    {{/items}}
 </div>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset=utf-8>
-    <title>(Это title)test testeeees tes tes Пример страницы на HTML5</title>
+    <title>gebraucht-verkaufen</title>
     <link href="css/styles.css" rel="stylesheet">
 
   </head>

@@ -1,3 +1,12 @@
+var items = [
+    { title: 'test' },
+    { title: 'test2' },
+    { title: 'test3' },
+    { title: 'test4' },
+    { title: 'test5' },
+];
+
+
 var ractive = new Ractive({
     // The `el` option can be a node, an ID, or a CSS selector.
     el: 'container',
@@ -8,9 +17,7 @@ var ractive = new Ractive({
 
     // Here, we're passing in some initial data
     data: {
-        "name": "Alice",
-        "unread": 0,
-        "total": 100
+        "items": items
     }
 
 
